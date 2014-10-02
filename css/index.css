@@ -5,6 +5,10 @@ body{
 	margin:0;
 	color:#444;
 }
+
+.bs-docs-sidebar {
+}
+
 .content{
 	max-width:1000px;
 }
@@ -26,6 +30,7 @@ body{
 .codebit{
 	background: #eee;
 	padding: 20px;
+	margin-top:40px;	
 }
 .codebit:after{
 	content: "";
@@ -60,6 +65,19 @@ hr {
 	border-bottom: 2px solid #bbb;
 }
 
+.panel-do {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border: 1px solid #d6e9c6;
+	padding: 20px;
+}
+
+.panel-do-not {
+	color: #a94442;
+	background-color: #f2dede;
+	border: 1px solid #ebccd1;
+	padding: 20px;
+}
 
 .navigation{
 	width:200px;
