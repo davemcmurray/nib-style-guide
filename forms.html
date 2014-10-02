@@ -47,19 +47,19 @@
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
-				<pre>&lt;h2 class=&quot;Title-2&quot;&gt;Title-2&lt;/h2&gt;</pre>
+				<pre>&lt;h2 class=&quot;Title-2&quot;&gt;ADDRESS DETAILS&lt;/h2&gt;</pre>
 			    <h2 class="Title-2">ADDRESS DETAILS</h2><br>
 
 			    <h4>CSS</h4>
 		    	<span>
-		    		.title-1 {<br>
-		    		font-family: roboto;<br>
-		    		font-size: 54px;<br>
-		    		font-weight: 300;<br>
-		    		letter-spacing -2px;<br>
-		    		line-height: 60px;<br>
-		    		margin-bottom:<br>
-		    		};
+					.title-2 {<br>
+						color: #444444;<br>
+						font-family: roboto;<br> 
+						font-size: 36px;<br> 
+						font-weight: 300;<br> 
+						letter-spacing -1px;<br> 
+						line-height: 48px;<br>	
+					};
 		    	</span>
 			</div>
 		</div>
@@ -78,19 +78,19 @@
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
-				<pre>&lt;h3 class=&quot;Title-3&quot;&gt;Title-3&lt;/h3&gt;</pre>
+				<pre>&lt;h3 class=&quot;Title-3&quot;&gt;Home address&lt;/h3&gt;</pre>
 			    <h3 class="Title-3">Home address</h3><br>
 
 			    <h4>CSS</h4>
 		    	<span>
-		    		.title-1 {<br>
-		    		font-family: roboto;<br>
-		    		font-size: 54px;<br>
-		    		font-weight: 300;<br>
-		    		letter-spacing -2px;<br>
-		    		line-height: 60px;<br>
-		    		margin-bottom:<br>
-		    		};
+					.title-3 {<br>
+						color: #444444;<br>
+						font-family: roboto;<br>
+						font-size: 24px;<br> 
+						font-weight: 300;<br> 
+						letter-spacing -1px;<br> 
+						line-height: 32px;<br>
+					}
 		    	</span>
 			</div>
 		</div>
@@ -117,18 +117,18 @@
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
-				<pre>&lt;label class=&quot;control-label&quot;&gt;control-label&lt;/label&gt;</pre>
+				<pre>&lt;label class=&quot;control-label&quot;&gt;PHONE NUMBER&lt;/label&gt;</pre>
 			    <label class="control-label">PHONE NUMBER</label><br>
 
 			    <h4>CSS</h4>
 		    	<span>
-		    		.title-1 {<br>
-		    		font-family: roboto;<br>
-		    		font-size: 54px;<br>
-		    		font-weight: 300;<br>
-		    		letter-spacing -2px;<br>
-		    		line-height: 60px;<br>
-		    		margin-bottom:<br>
+		    		.control-label {<br>
+		    		display: block;<br>
+					margin-bottom: 10px;<br>
+					color: #fff;<br>
+					font-size: 14px;<br>
+					font-weight: 700;<br>
+					text-transform: uppercase;<br>
 		    		};
 		    	</span>
 			</div>
@@ -150,8 +150,8 @@
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
-				<pre>&lt;h2 class=&quot;title-2&quot;&gt;Title-2&lt;/h1&gt;</pre>
-			    <span class="title-2">Title two</span><br>
+				<pre>&lt;input id="firstName" name="firstName" type="text" maxlength="24" class=&quot;control control-input control-input--text&quot;&gt;&lt;/input&gt;</pre>
+				<div class="rg-6of12"><input id="firstName" name="firstName" type="text" maxlength="24" class="control control-input control-input--text" required=""></div>
 		    	<h4>CSS</h4>
 		    	<span>
 		    		.title-2 {<br>
@@ -182,21 +182,52 @@
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
-				<pre>&lt;h3 class=&quot;title-3&quot;&gt;Title-3&lt;/h3&gt;</pre>
-			    <span class="title-3">Title three</span><br>
+				<pre>&lt;input id="male"&gt;Male&gt;&lt;/input&gt;</pre>
+
+						<div class="control">
+                        <label class="control-label">Gender</label>
+                        <label for="male" class="control-label--radio control-label--radio-first selected" data-ng-class="{'selected':personalDetails.gender === 'Male'}" style="">
+                            <input id="male" name="gender" type="radio" value="Male" class="hoverhand t-gender-male" required="">
+                            Male
+                        </label>
+                        <label for="female" class="control-label--radio control-label--radio-last">
+                            <input id="female" type="radio" name="gender" value="Female" class="hoverhand t-gender-female" required="" data->
+                            Female
+                        </label>
+                        <div class="control-feedback-icon--outside tick"></div>
+                        <div class="control-feedback-icon--outside alert ng-hide"><div class="control-feedback-pointer"></div></div>
+                        </div>
+                    </div>
+
 		    	<h4>CSS</h4>
 		    	<span>
-		    		.title-3 {<br>
-		    		font-family: roboto;<br>
-		    		font-size: 24px;<br>
-		    		font-weight: 300;<br>
-		    		letter-spacing -1px;<br>
-		    		line-height: 32px;<br>
-		    		margin-bottom:<br>
-		    		};
+					.control-label {<br>
+						display: block;<br>
+						margin-bottom: 10px;<br>
+						color: #444;<br>
+						font-size: 14px;<br>
+						font-weight: 700;<br>
+						text-transform: uppercase;<br>
+					}<br>
+					<br>
+					.control-label--radio {<br>
+						background-color: #00781c;<br>
+						background-color: rgba(0, 0, 0, 0.2);<br>
+						border-radius: 2px;<br>
+						-moz-box-sizing: border-box;<br>
+						box-sizing: border-box;<br>
+						color: #fff;<br>
+						color: rgba(255, 255, 255, 0.8);<br>
+						cursor: pointer;<br>
+						display: inline-block;<br>
+						font-size: 16px;<br>
+						padding: 9px 20px 9px 10px;<br>
+						-webkit-transition: background 0.1s ease-in;<br>
+						-moz-transition: background 0.1s ease-in;<br>
+						transition: background 0.1s ease-in;<br>
+		    		}<br>
 		    	</span>
 			</div>
-		</div>
 		
 		<!-- Select box -->
 		<hr>
@@ -212,18 +243,20 @@
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
-				<pre>&lt;h4 class=&quot;title-4&quot;&gt;Title-4&lt;/h4&gt;</pre>
-			    <span class="title-4">Title four</span><br>
+				<pre>&lt;select class=&quot;control control-input control-input--select&quot;&gt;&lt;/select&gt;</pre>
+
+				<div class="select">
+				<select id="countryOfOrigin" name="countryOfOrigin" required="" class="control control-input control-input--select"><option value="" class="">Select a country</option><option value="0">Afghanistan</option><option value="1">Aland Islands</option><option value="2">Albania</option><option value="3">Algeria</option><option value="4">American Samoa</option><option value="5">Andorra</option><option value="6">Angola</option><option value="7">Anguilla</option><option value="8">Antarctica</option></select>
+				</div>
+
 		    	<h4>CSS</h4>
 		    	<span>
-		    		.title-4 {<br>
-		    		color: #444444;
-					font-family: roboto;<br>
-					font-size: 18px;<br>
-					font-weight: 400;<br>
-					line-height: 24px;<br>
-		    		margin-bottom:<br>
-		    		};
+					.control-input--select {<br>
+						max-width: 100%;<br>
+						padding-right: 10px;<br>
+						color: #545454;<br>
+						cursor: pointer;<br>
+					}<br>		    		
 		    	</span>
 			</div>
 		</div>
@@ -349,8 +382,8 @@
 		    	<h4>CSS</h4>
 		    	<span>
 		    		.text-small {<br>
-						font-size: 12px;
-						line-height: 18px;<br>
+					font-size: 12px;
+					line-height: 18px;<br>
 					};
 		    	</span>
 			</div>

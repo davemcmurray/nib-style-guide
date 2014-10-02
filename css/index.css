@@ -235,4 +235,122 @@ pre{
 }
 
 
+/* Responsive grid*/
 
+	.rg-1of12 {
+    width: 8.33333%; }
+  .rg-2of12 {
+    width: 16.66667%; }
+  .rg-3of12 {
+    width: 25%; }
+  .rg-4of12 {
+    width: 33.33333%; }
+  .rg-5of12 {
+    width: 41.66667%; }
+  .rg-6of12 {
+    width: 50%; }
+  .rg-7of12 {
+    width: 58.33333%; }
+  .rg-8of12 {
+    width: 66.66667%; }
+  .rg-9of12 {
+    width: 75%; }
+  .rg-10of12 {
+    width: 83.33333%; }
+  .rg-11of12 {
+    width: 91.66667%; }
+  .rg-12of12 {
+    width: 100%; }
+
+/* Form controls */
+
+.control {
+position: relative;
+margin-bottom: 30px;
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+}
+
+.control-input {
+	box-sizing: border-box;
+	height: 40px;
+	margin: 0;
+	padding: 0 0 0 10px;
+	font-size: 16px;
+	outline: 0;
+	border: 1px solid #888;
+	border-radius: 2px;
+	background-color: #fff;
+	-webkit-transform: none;
+	-moz-transform: none;
+	transform: none;
+}
+
+.control-input--text {
+	color: #545454;
+	display: block;
+	width: 100%;
+	padding-right: 26px;
+	line-height: 16px;
+	-webkit-appearance: none;
+}
+
+.control-label {
+	display: block;
+	margin-bottom: 10px;
+	color: #444;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.control-label--radio {
+	background-color: #00781c;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	padding: 9px 20px 9px 10px;
+	-webkit-transition: background 0.1s ease-in;
+	-moz-transition: background 0.1s ease-in;
+	transition: background 0.1s ease-in;
+}
+
+
+.control-input--select {
+background: -webkit-linear-gradient(top,#fff,#eee);
+background: -moz-linear-gradient(top,#fff,#eee);
+background: -o-linear-gradient(top,#fff,#eee);
+background: linear-gradient(to bottom,#fff,#eee);
+border: 1px solid #b9b9b9;
+border-radius: 3px;
+line-height: 17px;
+padding: 6px 14px 5px 10px;
+box-shadow: 0 1px 0 0 #fff inset,0 1px 0 rgba(0,0,0,.05);
+font-size: 13px;
+color: #666;
+cursor: pointer;
+font-weight: 700;
+width: 30%;
+margin: 0;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
+.control-input--select:after {
+width: 0;
+height: 0;
+border-style: solid;
+border-color: transparent;
+border-width: 7px 6.5px 0;
+border-top-color: #999;
+top: 13px;
+right: 10px;
+}
