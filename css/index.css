@@ -528,9 +528,9 @@ margin-left: -4px;
 }
 
 .icon__16 {
-	background-size: 32px 32px;
-	height: 32px;
-	width: 32px;
+	background-size: 16px 16px;
+	height: 16px;
+	width: 16px;
 }
 
 .icon__32 {
@@ -789,3 +789,34 @@ text-decoration: none;
 background-color: #ccf2f6;
 }
 
+.color-example{
+	width:30%;
+	box-sizing:border-box;
+	float: left;
+	padding:20px;
+} 
+
+.color-example-elizabeth{
+	background-color:#009623;
+	color:#fff;
+} 
+
+.color-example-charles{
+	background-color:#0a6d12;
+	color:#fff;
+} 
+
+.color-example-dark-grey{
+	background-color:#444;
+	color:#fff;
+} 
+
+.color-example-light-grey{
+	background-color:#b9b9b9;
+	color:#fff;
+} 
+
+.color-example-white{
+	background-color:#fff;
+	color:#444;
+}
