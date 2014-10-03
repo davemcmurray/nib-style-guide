@@ -496,6 +496,22 @@ margin-left: -4px;
 	width: 128px;
 }
 
+.icon-container {
+	display:inline-block;
+	margin-right:80px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+.icon-container > i {
+	margin-bottom: 10px;
+}
+
+.icon-container > ul {
+	list-style: none;
+	padding:0;
+	font-size: 12px;
+}
+
 
 /* Core Icons */
 .icon-calendar {
