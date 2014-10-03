@@ -689,6 +689,10 @@ margin-left: -4px;
 
 /* Side navigation */
 
+.side-nav {
+	background: #f9f9f9;
+}
+
 .nav>li>a {
 text-transform: uppercase;
 }
