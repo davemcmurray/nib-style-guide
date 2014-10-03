@@ -15,6 +15,10 @@ a {
 	color: #00a3b7;
 }
 
+a:hover {
+	color: #00707e;
+}
+
 .bs-docs-sidebar {
 }
 
@@ -110,7 +114,7 @@ hr {
 .masthead{
 	width:100%;
 	background:#00bcd4;
-	color:#fff;
+	color:#b2ebf2;
 	height:50px;
 	margin:0;
 	line-height:60px;
@@ -665,4 +669,10 @@ margin-left: -4px;
 
 .icon-chevron {
 	background-image: url(../assets/icons/core/icon-chevron.svg);
+}
+
+/* Side navigation */
+
+.nav>li>a {
+text-transform: uppercase;
 }
