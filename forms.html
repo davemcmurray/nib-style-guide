@@ -38,12 +38,9 @@
 	    	<!-- Section heading -->
 	    	<h2>Section heading</h2>
 		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
-				<ul>
-					<li>Use 'Roboto'</li>
-					<li>Use the field set to represent a set of form controls e.g ADDRESS DETAILS</li>
-				</ul>
+		    	<p>Use the field set to represent a set of form controls e.g ADDRESS DETAILS or Payments. The headings separate sections on the page and make it easy for the user to navigate the form.</p>
+		    	<p>Heading should clearly summarise the content of the section.</p>
+		    	<p>Headings should be distinct from each other and unambiguous.</p>
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
@@ -69,12 +66,9 @@
 			<div class="section">
 	    	<h2>Sub section heading</h2>
 		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
-				<ul>
-					<li>Use 'Roboto'</li>
-					<li>Use a subheading when there is multiple groups of form controls within a section e.g ADDRESS section includes sub-section of Home address and Postal address</li>
-				</ul>
+		    	<p>Use a subheading when there is multiple groups of form controls within a section e.g ADDRESS section includes sub-section of Home address and Postal address.</p>
+		    	<p>Use a sub section heading when there are multiple inputs to answer. For example radio buttons or check boxes. The sub section heading contains the "question text" in these situations.
+				</p>
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
@@ -101,19 +95,8 @@
 	    	<div class="section">
 	    	<h2>Labelling</h2>
 		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
-				<ul>
-					<li>Use 'Open sans'</li>
-					<li>Prefer top left-aligned labels</li>
-					<li>Use uppercase</li>
-					<li>14px</li>
-					<li>Use as few words as possible</li>
-				</ul>
-				<h4>Do not</h4>
-				<ul>
-					<li>Use system speak - customers don't want to think like our database</li> 
-				</ul>
+		    	<p>All input fields are required to have labels. The purpose of the label is to indicate what data is required in the field.</p>
+		    	<p>Labels should be clear and easy to understand - and be unambiguous.</p>
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
@@ -141,12 +124,13 @@
     	<div class="section"> 
 	    	<h2>Text input</h2>
 		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
+		    	<h3>Use a text input field when:</h3>
 				<ul>
-					<li>Field size should match intended input length e.g phone number 10 characters</li>
-					<li>Preferably have validation on all fields however there are some exceptions e.g customer comments</li>
+					<li>A string of characters</li>
+					<li>A single line of content</li>
 				</ul>
+			<h3>Avoid</h3>
+				<p>Field length that goes over 60 characters as this creates poor readability. When pushed in an extreme case 90 Characters is an absolute must.</p>
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
@@ -171,14 +155,14 @@
     	<div class="section"> 
 	    	<h2>Radio buttons</h2>
 		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
-				<ul>
-					<li>Used when there is a list of two or more options</li>
-					<li>Only one option can be selected</li>
-					<li>User must select an answer</li>
-				</ul>
-
+		    	<h3>Used when</h3>
+		    	<p>Used when a user needs to choose between two or more options Multiple options can be selected</p>
+		    	<p>User must select an answer (if answer not mandatory then use checkbox)</p>
+		    	<p>Each choice should be clear and distinct. We want to avoid users humming and ahhing between options</p>
+		    	<h3>Usage:</h3>
+		    	<p>Each group of inputs has a sub section heading which contains the “Question text”</p>
+		    	<p>Each radio button is to have a label which contains the answer</p>
+		    	<p>Preference is to use one word answers.</p>
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
@@ -228,18 +212,84 @@
 		    		}<br>
 		    	</span>
 			</div>
+
+		<!-- Radio groups -->
+		<hr>
+    	<div class="section"> 
+	    	<h2>Radio button groups</h2>
+		    <div class="wordbit">
+		    	<p>User needs to choose between two or more options</p>
+		    	<p>Only one option can be selected</p>
+		    	<p>User must select an answer</p>
+		    	<p>Each choice should be clear and distinct. We want to avoid users  umming and ahhing between options</p>
+		    <h3>Usage</h3>
+		    <p>Each group of inputs has a sub section heading which contains the “Question text”</p>
+		    <p>Each radio button is to have a label which contains the answer. Preference is to use one word answers.</p>
+			</div>
+			<div class="codebit">
+				<h3>Example</h3>
+				<pre>&lt;input id="male"&gt;Male&gt;&lt;/input&gt;</pre>
+
+						<div class="control">
+                        <label class="control-label">Gender</label>
+                        <label for="male1" class="control-label--radio control-label--radio-first selected" data-ng-class="{'selected':personalDetails.gender === 'Male'}" style="">
+                            <input id="male1" name="gender" type="radio" value="Male1" class="hoverhand t-gender-male" required="">
+                            Male
+                        </label>
+                        <label for="female1" class="control-label--radio control-label--radio-last">
+                            <input id="female1" type="radio" name="gender" value="Female1" class="hoverhand t-gender-female" required="" data->
+                            Female
+                        </label>
+                        <label for="unknown" class="control-label--radio control-label--radio-last">
+                            <input id="unknown" type="radio" name="gender" value="Unknown" class="hoverhand t-gender-unknown" required="" data->
+                            Unknown
+                        </label>
+                        <label for="transgender" class="control-label--radio control-label--radio-last">
+                            <input id="transgender" type="radio" name="gender" value="Transgender" class="hoverhand t-gender-transgender" required="" data->
+                            Transgender
+                        </label>
+                        <div class="control-feedback-icon--outside tick"></div>
+                        <div class="control-feedback-icon--outside alert ng-hide"><div class="control-feedback-pointer"></div></div>
+                        </div>
+                    </div>
+
+		    	<h4>CSS</h4>
+		    	<span>
+					.control-label {<br>
+						display: block;<br>
+						margin-bottom: 10px;<br>
+						color: #444;<br>
+						font-size: 14px;<br>
+						font-weight: 700;<br>
+						text-transform: uppercase;<br>
+					}<br>
+					<br>
+					.control-label--radio {<br>
+						background-color: #00781c;<br>
+						background-color: rgba(0, 0, 0, 0.2);<br>
+						border-radius: 2px;<br>
+						-moz-box-sizing: border-box;<br>
+						box-sizing: border-box;<br>
+						color: #fff;<br>
+						color: rgba(255, 255, 255, 0.8);<br>
+						cursor: pointer;<br>
+						display: inline-block;<br>
+						font-size: 16px;<br>
+						padding: 9px 20px 9px 10px;<br>
+						-webkit-transition: background 0.1s ease-in;<br>
+						-moz-transition: background 0.1s ease-in;<br>
+						transition: background 0.1s ease-in;<br>
+		    		}<br>
+		    	</span>
+			</div>
 		
 		<!-- Select box -->
 		<hr>
     	<div class="section"> 
 	    	<h2>Select box</h2>
 		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
-				<ul>
-					<li>Used when there are lists of options</li> 
-					<li>User may select any number of choices including zero, one, or several</li>
-				</ul>
+				<p>Used when there are lists of options</p> 
+				<p>User may select any number of choices including zero, one, or several</p>
 			</div>
 			<div class="codebit">
 				<h3>Example</h3>
@@ -265,16 +315,21 @@
 		<hr>
 	    <div class="section"> 
 	    	<h2>Checkbox</h2>
-
 		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
-				<ul>
-					<li>Used when there are one or more options</li>
-					<li>Choosing to select is optional</li>
-					<li>Multiple options can be selected</li>
-					<li>Often used to acknowledge acceptence e.g Terms and Conditions</li>
-				</ul>
+				<p>Used when a choice needs to be made between one or more options</p>
+				<p>Multiple options can be selected</p>
+				<p>Used when an answer is optional</p>
+				<p>Each choice should be clear and distinct. We want to avoid users guessing between options</p>
+			<h3>Usage for single checkboxes</h3>
+			<p>Single checkboxes are used for _optional_ agreement to participate in marketing programs or for optional</p>
+			<p>Wherever possible single checkboxes should be _avoided for mandatory acceptance of terms and conditions or legal disclaimers_. It is better to have mandatory acceptance acknowledged by the act of submitting the form.</p>
+			<p>Check box is left aligned to label Elements are to be grouped visually so connection is strong</p>
+			<h3>Usage for multiple checkboxes</h3>
+			<p>Each group of inputs has a sub section heading which contains the “Question text”</p>
+			<p>Each radio button is to have a label which contains the answer. Preference is to use one word answers.</p>
+			<p>Ensure clear separation between each "input and label" pair.</p>
+			<p>Use visual grouping of label and input though background colour and border</p>
+			<p>This avoids confusions over which radio button relates to which label</p>
 			</div>
 			<div class="codebit">
 				<h3>Example:</h3>
@@ -301,22 +356,22 @@
 	    	<h2>Alerts &amp; Validation</h2>
 
 		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
-					<h3>General</h3>
-				<ul>
-					<li>Used to assist user to enter valid input</li>
-					<li>Help user as soon as possible e.g if wrong info entered let user know</li>
-				</ul>
-					<h3>Valid input</h3>
-				<ul>
-					<li>Tick to be shown next to field on valid input</li>
-				</ul>
-					<h3>Invalid input</h3>
-				<ul>
-					<li>Cross to be shown when input invalid</li>
-					<li>Alert/tool tip to be used to tell the user what they did wrong, and how to fix it</li>
-				</ul>
+		    	<p>Alerts are to following the following pattern. Advise the user what has happened and - if applicable - what the next steps are.</p>
+		    	<h3>Success</h3>
+		    	<p>Advise the customer their input is valid</p>
+		    	<h4>Success on valid input - client side</h4>
+		    	<p>We like to make customers feel good by showing their input is valid in context and as soon as possible.</p>
+		    	<p>We do this by putting a tick next to the input field on blur.</p>
+		    	<p>When they reenter the field the tick remains until the input becomes invalid again. They are then shown the alter message</p>
+		    	<h4>Success on form submission - server side</h4>
+		    	<p>If success message confirms submission of the form always advise customer how long any processing times or activation times. For example let them know how long until they will receive a claim or how long until we will call them back with further questions.</p>
+		    	<p>Always remove doubt or uncertainty - if there is nothing else they have to do then tell them that. They will enjoy the confirmation.</p>
+		    	<h3>Alert</h3>
+		    	<p>We like to alert customers when they have entered information that is invalid or when we need to get their attention.</p>
+		    	<p>The best alerts let the customer what has gone wrong (e.g. a phone number missing numbers) then we tell them what to do to fix.</p>
+		    	<p>We avoid blaming the customer and we always aim for clarity of information.</p>
+		    	<p>Don’t leave them guessing about how to fix the error. tell them what to do next.</p>
+		    	<p>To alter customers we utilise orange and yellow where possible. It is friendly and still gets their attention.</p>
 			</div>
 			<div class="codebit">
 				<h3>Example:</h3>
@@ -385,11 +440,13 @@
 	    <div class="section"> 
 	    	<h2>Supporting information</h2>
 		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
-				<ul>
-					<li>Used to inform user of required input e.g Password must be at least 8 characters and contain one uppercase letter and one icon</li>
-				</ul>
+		    	<h3>Validation rules</h3>
+		    	<p>If an input has validation rules then we always tell the customer what these are.</p>
+		    	<p>Explain character limits or invalid characters. This information should always be visible using simple clear wording.</p>
+		    	<h3>Guidance</h3>
+		    	<p>Supporting information can also be used to help explain complex terms. If a single line can be used close to the field then the information can be visible.</p>
+		    	<p>However sometimes we need to use images, tables or larger amounts of text to help the customer .In this case it is best to hide the information and reveal it to the customer when ready. This avoids overwhelming customers with too much content or distracting them needlessly.</p>
+		    	<p>To activate supporting information utilise a info icon or a "help information" link.</p>
 			</div>
 			<div class="codebit">
 				<h3>Example:</h3>
@@ -407,32 +464,7 @@
 		
 		<!-- Modifiers -->
 		<hr>
-	    <div class="section"> 
-	    	<h2>Modifiers</h2>
-		    <div class="wordbit">
-		    	<h3>Usage</h3>
-		    	<h4>Do</h4>
-				<ul>
-					<li>Align at designers descression</li>
-				</ul>
-				<h4>Do not</h4>
-				<ul>
-					<li>use a font size less than 12px</li> 
-				</ul>
-			</div>
-			<div class="codebit">
-				<h3>Example:</h3>
-				<pre>&lt;p class=&quot;text-small&quot;&gt;Disclaimer&lt;/p&gt;</pre>
-			    <span class="text-small">text-small</span><br><br>
-		    	<h4>CSS</h4>
-		    	<span>
-		    		.text-small {<br>
-					font-size: 12px;
-					line-height: 18px;<br>
-					};
-		    	</span>
-			</div>
-		</div>
+
 	</div>
 	</body>
 </html>
