@@ -278,8 +278,9 @@
 			</div>
 			<div class="codebit">
 				<h3>Example:</h3>
-				<pre>&lt;p class=&quot;copy&quot;&gt;Copy&lt;/p&gt;</pre>
-			    <span class="copy">We'll recognise any waiting periods already served with your current fund, so you can claim straight away. See our change your health insurance page. Any existing limits used with your current fund will carry across to nib.</span><br><br>
+				<pre>&lt;input type=&quot;checkbox&quot; class=&quot;copy&quot;&gt;This is my postal address&lt;/p&gt;</pre>
+				<input type="checkbox">This is my postal address</input>
+			    <br>
 		    	<h4>CSS</h4>
 		    	<span>
 		    		.copy {<br>
@@ -319,18 +320,62 @@
 			</div>
 			<div class="codebit">
 				<h3>Example:</h3>
-				<pre>&lt;p class=&quot;copy&quot;&gt;Copy&lt;/p&gt;</pre>
-			    <span class="copy">We'll recognise any waiting periods already served with your current fund, so you can claim straight away. See our <a href="">change your health insurance</a> page. Any existing limits used with your current fund will carry across to nib.</span><br><br>
+				<pre>&lt;div class=&quot;tip south&quot;&gt;&lt;/div&gt;</pre>
+				<div class="rg-6of12"><input id="firstName" name="firstName" type="text" maxlength="24" class="control control-input-invalid control-input control-input--text" required=""></div>
+				<div class="tip south">Please enter a street address</div>
+			    <br><br><br>
 		    	<h4>CSS</h4>
 		    	<span>
-		    		.copy a {<br>
-					color: #009623;<br>
-					text-decoration: underline;<br>
-					}; <br><br>
-
-					.copy a:hover {<br>
-					color:#26b11b;<br>
-					};<br>
+				.tip {<br>
+				-webkit-transition: opacity,margin,-webkit-transform;<br>
+				-moz-transition: opacity,margin,-moz-transform;<br>
+				-o-transition: opacity,margin,-o-transform;<br>
+				transition: opacity,margin,-ms-transform;<br>
+				transition: opacity,margin,transform;<br>
+				-webkit-transition-duration: .2s;<br>
+				-moz-transition-duration: .2s;<br>
+				-o-transition-duration: .2s;<br>
+				transition-duration: .2s;<br>
+				-webkit-transition-timing-function: cubic-bezier(0.42,0,.58,1);<br>
+				-moz-transition-timing-function: cubic-bezier(0.42,0,.58,1);<br>
+				-o-transition-timing-function: cubic-bezier(0.42,0,.58,1);<br>
+				transition-timing-function: cubic-bezier(0.42,0,.58,1);<br>
+				text-rendering: optimizeLegibility;<br>
+				-webkit-font-smoothing: antialiased;<br>
+				-moz-box-sizing: border-box;<br>
+				box-sizing: border-box;<br>
+				position: absolute;<br>
+				z-index: 10000;<br>
+				color: #fff;<br>
+				font-weight: 700;<br>
+				font-size: 11px;<br>
+				line-height: 15px;<br>
+				background: #333;<br>
+				border-radius: 3px;<br>
+				padding: 15px;<br>
+				}<br>
+				<br>
+				.tip.south.is-visible {<br>
+				margin-top: 8px;<br>
+				}<br>
+				<br>
+				.tip:after {<br>
+				content: "";<br>
+				display: block;<br>
+				position: absolute;<br>
+				border-style: solid;<br>
+				border-color: transparent;<br>
+				width: 0;<br>
+				height: 0;<br>
+				}<br>
+				<br>
+				.tip.south:after {<br>
+				border-width: 0 8px 8px;<br>
+				border-bottom-color: #333;<br>
+				top: -8px;<br>
+				left: 50%;<br>
+				margin-left: -4px;<br>
+				}<br>
 		    	</span>
 			</div>
 		</div>
