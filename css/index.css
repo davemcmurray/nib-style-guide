@@ -15,6 +15,10 @@ a {
 	color: #00a3b7;
 }
 
+a:hover {
+	color: #00707e;
+}
+
 .bs-docs-sidebar {
 }
 
@@ -95,6 +99,8 @@ hr {
 .navigation ul{
 	list-style-type:none;
 	padding-left:20px;
+	padding-top: 40px;
+	
 }
 .navigation a{
 	text-decoration:none;
@@ -108,13 +114,18 @@ hr {
 .masthead{
 	width:100%;
 	background:#00bcd4;
-	color:#fff;
+	color:#b2ebf2;
 	height:50px;
 	margin:0;
-	line-height:50px;
+	line-height:60px;
 	padding-left:20px;
 	border-bottom: 8px #00a3b7 solid;
+	padding-bottom: 60px;
+	display: block;
 }
+
+
+
 .v2-button--secondary{
 	background-color:#888;
 	box-shadow:none;
@@ -658,4 +669,10 @@ margin-left: -4px;
 
 .icon-chevron {
 	background-image: url(../assets/icons/core/icon-chevron.svg);
+}
+
+/* Side navigation */
+
+.nav>li>a {
+text-transform: uppercase;
 }
