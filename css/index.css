@@ -642,6 +642,10 @@ margin-left: -4px;
 	background-image: url(../assets/icons/core/icon-tick-circle.svg);
 }
 
+.icon-tick-inverse {
+	background-image: url(../assets/icons/core/icon-tick-inverse.svg);
+}
+
 .icon-tick {
 	background-image: url(../assets/icons/core/icon-tick.svg);
 }
@@ -656,73 +660,73 @@ margin-left: -4px;
 
 /* Feature Icons */
 .icon-attachment {
-	background-image: url(../assets/icons/core/icon-attachment.svg);
+	background-image: url(../assets/icons/feature/icon-attachment.svg);
 }
 
 .icon-clock {
-	background-image: url(../assets/icons/core/icon-clock.svg);
+	background-image: url(../assets/icons/feature/icon-clock.svg);
 }
 
 .icon-dollar-circle {
-	background-image: url(../assets/icons/core/icon-dollar-circle.svg);
+	background-image: url(../assets/icons/feature/icon-dollar-circle.svg);
 }
 
 .icon-dollar-inverse {
-	background-image: url(../assets/icons/core/icon-dollar-inverse.svg);
+	background-image: url(../assets/icons/feature/icon-dollar-inverse.svg);
 }
 
 .icon-dollar {
-	background-image: url(../assets/icons/core/icon-dollar.svg);
+	background-image: url(../assets/icons/feature/icon-dollar.svg);
 }
 
 .icon-flag {
-	background-image: url(../assets/icons/core/icon-flag.svg);
+	background-image: url(../assets/icons/feature/icon-flag.svg);
 }
 
 .icon-hospital {
-	background-image: url(../assets/icons/core/icon-hospital.svg);
+	background-image: url(../assets/icons/feature/icon-hospital.svg);
 }
 
 .icon-settings {
-	background-image: url(../assets/icons/core/icon-settings.svg);
+	background-image: url(../assets/icons/feature/icon-settings.svg);
 }
 
 .icon-stopwatch {
-	background-image: url(../assets/icons/core/icon-stopwatch.svg);
+	background-image: url(../assets/icons/feature/icon-stopwatch.svg);
 }
 
 .icon-switching {
-	background-image: url(../assets/icons/core/icon-switching.svg);
+	background-image: url(../assets/icons/feature/icon-switching.svg);
 }
 
 .icon-thumbs-up {
-	background-image: url(../assets/icons/core/icon-thumbs-up.svg);
+	background-image: url(../assets/icons/feature/icon-thumbs-up.svg);
 }
 
 .icon-tools {
-	background-image: url(../assets/icons/core/icon-tools.svg);
+	background-image: url(../assets/icons/feature/icon-tools.svg);
 }
 
 .icon-umbrella {
-	background-image: url(../assets/icons/core/icon-umbrella.svg);
+	background-image: url(../assets/icons/feature/icon-umbrella.svg);
 }
 
 /* navigation */
 
 .icon-arrow {
-	background-image: url(../assets/icons/core/icon-arrow.svg);
+	background-image: url(../assets/icons/navigation/icon-arrow.svg);
 }
 
 .icon-chevron-circle {
-	background-image: url(../assets/icons/core/icon-chevron-circle.svg);
+	background-image: url(../assets/icons/navigation/icon-chevron-circle.svg);
 }
 
 .icon-chevron-inverse {
-	background-image: url(../assets/icons/core/icon-chevron-inverse.svg);
+	background-image: url(../assets/icons/navigation/icon-chevron-inverse.svg);
 }
 
 .icon-chevron {
-	background-image: url(../assets/icons/core/icon-chevron.svg);
+	background-image: url(../assets/icons/navigation/icon-chevron.svg);
 }
 
 /* Side navigation */
