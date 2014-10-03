@@ -784,6 +784,17 @@ margin-left: -4px;
 text-transform: uppercase;
 }
 
+ul .side-nav-sub {
+	font-size: 12px;
+	padding: 0;
+	padding-left: 30px;
+	line-height: 26px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	display: block;
+}
+
 .nav>li>a:hover, .nav>li>a:focus {
 text-decoration: none;
 background-color: #ccf2f6;
