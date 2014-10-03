@@ -55,7 +55,7 @@ h2{
 }
 h3{
 	font-size:23px;
-	line-height: 36px;
+	line-height:25px;
 	margin:25px 0 18px;
 }
 
@@ -98,7 +98,7 @@ hr {
 }
 .masthead{
 	width:100%;
-	background: #00bcd4;
+	background:#009623;
 	color:#fff;
 	height:50px;
 	margin:0;
@@ -436,3 +436,19 @@ left: 50%;
 margin-left: -4px;
 }
 
+/* icon */
+.icon {
+	background: no-repeat 0 center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.icon__64 {
+	background-size: 64px 64px;
+	height: 64px;
+	width: 64px;
+}
+
+.icon-plus {
+	background-image: url(../assets/icons/core/icon-plus.svg);
+}
