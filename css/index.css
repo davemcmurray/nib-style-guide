@@ -15,10 +15,6 @@ a {
 	color: #00a3b7;
 }
 
-a:hover {
-	color: #00707e;
-}
-
 .bs-docs-sidebar {
 }
 
@@ -75,7 +71,7 @@ h3{
 hr {
 	margin:60px 0;
 	border: 0 none;
-	border-bottom: 2px solid #00a3b7;
+	border-bottom: 2px solid #bbb;
 }
 
 .panel-do {
@@ -99,8 +95,6 @@ hr {
 .navigation ul{
 	list-style-type:none;
 	padding-left:20px;
-	padding-top: 40px;
-	
 }
 .navigation a{
 	text-decoration:none;
@@ -114,18 +108,12 @@ hr {
 .masthead{
 	width:100%;
 	background:#00bcd4;
-	color:#b2ebf2;
+	color:#fff;
 	height:50px;
 	margin:0;
-	line-height:60px;
+	line-height:50px;
 	padding-left:20px;
-	border-bottom: 8px #00a3b7 solid;
-	padding-bottom: 60px;
-	display: block;
 }
-
-
-
 .v2-button--secondary{
 	background-color:#888;
 	box-shadow:none;
@@ -214,6 +202,46 @@ hr {
 	font-size: 12px;
 	line-height: 18px;
 }
+/* Backgrounds & Panels */
+
+.bg-1 {
+	background-color: #00a3b7;
+	padding: 50px;
+}
+
+.panel-1 {
+	background-color: #;
+	padding: 20px;
+	width: 350px;
+	height: 200px;
+}
+
+.text-center {
+	text-align: center; 
+}
+
+.align-center {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+/* Margins & Padding */
+
+.margin-top-xs {
+	margin-top: 10px;
+}
+
+.margin-top-small {
+	margin-top: 20px;
+}
+
+.margin-left-xs {
+	margin-left: 10px;
+}
+
+.margin-left-small {
+	margin-left: 20px;
+}
 
 /* Buttons */
 
@@ -282,6 +310,14 @@ pre{
     width: 91.66667%; }
   .rg-12of12 {
     width: 100%; }
+
+.pull-left {
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
 
 /* Form controls */
 
@@ -494,22 +530,6 @@ margin-left: -4px;
 	width: 128px;
 }
 
-.icon-container {
-	display:inline-block;
-	margin-right:80px;
-	margin-bottom: 80px;
-	text-align: center;
-}
-.icon-container > i {
-	margin-bottom: 10px;
-}
-
-.icon-container > ul {
-	list-style: none;
-	padding:0;
-	font-size: 12px;
-}
-
 
 /* Core Icons */
 .icon-calendar {
@@ -696,3 +716,4 @@ margin-left: -4px;
 .nav>li>a {
 text-transform: uppercase;
 }
+
