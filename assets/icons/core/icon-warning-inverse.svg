@@ -11,7 +11,7 @@ You may NOT sub-license, resell, rent, redistribute or otherwise transfer the ic
 
 	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 
-<path id="warning-5-icon" d="M256,77.6L50,434.4h412L256,77.6z M236.299,210.483h39.402v119.495h-39.402V210.483z M256,391.611
+<path fill="#444444" id="warning-5-icon" d="M256,77.6L50,434.4h412L256,77.6z M236.299,210.483h39.402v119.495h-39.402V210.483z M256,391.611
 
 	c-11.742,0-21.262-9.52-21.262-21.263s9.52-21.262,21.262-21.262s21.262,9.519,21.262,21.262S267.742,391.611,256,391.611z"/>
 

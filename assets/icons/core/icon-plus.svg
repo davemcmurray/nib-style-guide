@@ -11,7 +11,7 @@ You may NOT sub-license, resell, rent, redistribute or otherwise transfer the ic
 
 	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 
-<polygon id="plus-icon" points="462,198.615 313.385,198.615 313.385,50 198.615,50 198.615,198.615 50,198.615 50,313.385 
+<polygon id="plus-icon" fill="#444444" points="462,198.615 313.385,198.615 313.385,50 198.615,50 198.615,198.615 50,198.615 50,313.385 
 
 	198.615,313.385 198.615,462 313.385,462 313.385,313.385 462,313.385 "/>
 
