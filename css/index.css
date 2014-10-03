@@ -139,6 +139,8 @@ hr {
 	font-weight: 300; 
 	letter-spacing -2px; 
 	line-height: 60px;
+	margin-bottom:40px;
+	display: block;
 }
 .title-2 {
 	color: #444444;
@@ -147,6 +149,8 @@ hr {
 	font-weight: 300; 
 	letter-spacing -1px; 
 	line-height: 48px;	
+	margin-bottom: 20px;
+	display: block;
 }
 .title-3 {
 	color: #444444;
@@ -155,6 +159,8 @@ hr {
 	font-weight: 300; 
 	letter-spacing -1px; 
 	line-height: 32px;
+	margin-bottom: 20px;
+	display: block;
 }
 .title-4 {	
 	color: #444444;
@@ -162,6 +168,8 @@ hr {
 	font-size: 18px; 
 	font-weight: 400; 
 	line-height: 24px;
+	margin-bottom: 5px;
+	display: block;
 }
 .copy {
 	color:#444444;
@@ -169,6 +177,7 @@ hr {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 20px;
+	display: block;
 }
 
 .copy a {
