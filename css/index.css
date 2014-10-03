@@ -4,6 +4,11 @@ body{
 	padding:0;
 	margin:0;
 	color:#444;
+	line-height: 22px;
+}
+
+p {
+margin: 0 0 20px;
 }
 
 a {
@@ -59,7 +64,7 @@ h2{
 }
 h3{
 	font-size:23px;
-	line-height:25px;
+	line-height:32px;
 	margin:25px 0 18px;
 }
 
@@ -181,7 +186,7 @@ hr {
 	font-family: open sans;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 22px;
 	display: block;
 }
 
