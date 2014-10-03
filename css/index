@@ -6,10 +6,6 @@ body{
 	color:#444;
 }
 
-a {
-	color: #00a3b7;
-}
-
 .bs-docs-sidebar {
 }
 
@@ -106,8 +102,9 @@ hr {
 	color:#fff;
 	height:50px;
 	margin:0;
-	line-height:50px;
+	line-height: 50px;
 	padding-left:20px;
+	padding-bottom: 10px;
 }
 .v2-button--secondary{
 	background-color:#888;
