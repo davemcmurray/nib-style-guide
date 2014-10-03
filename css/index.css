@@ -283,6 +283,9 @@ pre{
 	white-space: normal;
 }
 
+.dark-teal {
+	color: #00a3b7;
+}
 
 /* Responsive grid*/
 
@@ -530,6 +533,21 @@ margin-left: -4px;
 	width: 128px;
 }
 
+.icon-container {
+	display:inline-block;
+	margin-right:80px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+.icon-container > i {
+	margin: 10px 0;
+}
+
+.icon-container > ul {
+	list-style: none;
+	padding:0;
+	font-size: 12px;
+}
 
 /* Core Icons */
 .icon-calendar {
