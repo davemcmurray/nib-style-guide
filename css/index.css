@@ -784,7 +784,7 @@ margin-left: -4px;
 text-transform: uppercase;
 }
 
-ul .side-nav-sub {
+ul.side-nav-sub {
 	font-size: 12px;
 	padding: 0;
 	padding-left: 30px;
@@ -805,6 +805,8 @@ background-color: #ccf2f6;
 	box-sizing:border-box;
 	float: left;
 	padding:20px;
+	margin-right: 5px;
+	margin-bottom: 5px;
 } 
 
 .color-example-elizabeth{
