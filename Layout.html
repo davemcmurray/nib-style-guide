@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="index.css" rel="stylesheet"/>
-		<link href="//fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,500,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link href="css/index.css" rel="stylesheet"/>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,500,700" rel="stylesheet" type="text/css">
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<style>
 			.block{
 				min-height:400px;
@@ -51,77 +54,82 @@
 		</style>
 	</head>
 	<body>
-		<body>
-	<h3 class="masthead">nib style guide</h3>
-	<div class="navigation">
-	    <ul.>
-	        <li>
-	            <a href="../pages/buttons.html">Buttons</a>
-	        </li>
-	        <li>
-	            <a href="../pages/typography.html">Typography</a>
-	        </li>
-	    </ul>
-	</div>
+		<header class="masthead">
+			<div class="container">
+				<h3>nib pattern library</h3>			
+			</div>
+		</header>
+		<div class="container">
+			<div class="col-md-3">
+				<div class="bs-docs-sidebar affix navigation" role="complementary">
+				    <ul class="nav bs-docs-sidenav">
+				        <li><a href="buttons.html">Buttons</a></li>
+				        <li><a href="forms.html">Forms</a></li>
+				        <li><a href="iconography.html">Iconography</a></li>
+				        <li><a href="typography.html">Typography</a></li>
+				    </ul>
+				</div>
+			</div>
 
-    <div class="content">
-		<h1>Layout</h1>
-		<p>Buttons, across the nib digital channels, help our users see and perform an action. These actions include:</p>
-		<ul>
-			<li>Moving between pages</li>
-			<li>Submitting a form</li>
-			<li>Expanding or minimising an accordion</li>
-			<li>Opening a dialog</li>
-		</ul>
-		<h3>General button usage</h3>
-		    	<h4>Labelling</h4>
-		    	<ul>
-			    	<li>Open sans</li>
-			    	<li>Single line</li>
-			    	<li>12px - 18px</li>
-			    	<li>Tell the user what the button will do</li>
-			    	<li>DO NOT use contextless request as labels e.g. "Click here"</li>
-			    </ul>	
-		    	<h4>Do</h4>				
-		    	<ul>
-					<li>Button dos</li>
-					
-				</ul>
-				<h4>Do not</h4>
+		    <div class="col-md-9">
+				<h1>Layout</h1>
+				<p>Buttons, across the nib digital channels, help our users see and perform an action. These actions include:</p>
 				<ul>
-					<li>Do not use multi-line line labels</li>
-					<li>Do not use modifiers that have not already been defined</li>
+					<li>Moving between pages</li>
+					<li>Submitting a form</li>
+					<li>Expanding or minimising an accordion</li>
+					<li>Opening a dialog</li>
 				</ul>
-	    <div class="section block block-stripe">
-	    	<h2>Blocks - Stripes</h2>
-		    <div class="wordbit">
-		    	<h3>General</h3>
-		    	<ul>
-		    		<li>Always the rear-most attributes</li>
-		    		<li>Background is image or flat colour</li>
-		    	</ul>	
+				<h3>General button usage</h3>
+				    	<h4>Labelling</h4>
+				    	<ul>
+					    	<li>Open sans</li>
+					    	<li>Single line</li>
+					    	<li>12px - 18px</li>
+					    	<li>Tell the user what the button will do</li>
+					    	<li>DO NOT use contextless request as labels e.g. "Click here"</li>
+					    </ul>	
+				    	<h4>Do</h4>				
+				    	<ul>
+							<li>Button dos</li>
+							
+						</ul>
+						<h4>Do not</h4>
+						<ul>
+							<li>Do not use multi-line line labels</li>
+							<li>Do not use modifiers that have not already been defined</li>
+						</ul>
+			    <div class="section block block-stripe">
+			    	<h2>Blocks - Stripes</h2>
+				    <div class="wordbit">
+				    	<h3>General</h3>
+				    	<ul>
+				    		<li>Always the rear-most attributes</li>
+				    		<li>Background is image or flat colour</li>
+				    	</ul>	
+					</div>
+				</div>
+				<div class="section block block-white">
+			    	<h2>Blocks - Stripes</h2>
+				    <div class="wordbit">
+				    	<h3>General</h3>
+				    	<ul>
+				    		<li>Always the rear-most attributes</li>
+				    		<li>Background is image or flat colour</li>
+				    	</ul>	
+					</div>
+				</div>
+				<div class="section block block-green">
+			    	<h2>Blocks - Green</h2>
+				    <div class="wordbit">
+				    	<h3>General</h3>
+				    	<ul>
+				    		<li>Always the rear-most attributes</li>
+				    		<li>Background is image or flat colour</li>
+				    	</ul>	
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="section block block-white">
-	    	<h2>Blocks - Stripes</h2>
-		    <div class="wordbit">
-		    	<h3>General</h3>
-		    	<ul>
-		    		<li>Always the rear-most attributes</li>
-		    		<li>Background is image or flat colour</li>
-		    	</ul>	
-			</div>
-		</div>
-		<div class="section block block-green">
-	    	<h2>Blocks - Green</h2>
-		    <div class="wordbit">
-		    	<h3>General</h3>
-		    	<ul>
-		    		<li>Always the rear-most attributes</li>
-		    		<li>Background is image or flat colour</li>
-		    	</ul>	
-			</div>
-		</div>
-</div>
 	</body>
 </html>
