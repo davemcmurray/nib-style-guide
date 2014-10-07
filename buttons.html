@@ -8,16 +8,15 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-	<header class="masthead">
+		<header class="masthead">
+			<div class="container-fluid">
+				<h3>nib pattern library</h3>			
+			</div>
+		</header>
 		<div class="container-fluid">
-			<h3>nib pattern library</h3>			
-		</div>
-	</header>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="side-nav bs-docs-sidebar affix navigation" role="complementary">
-				    <ul class="nav bs-docs-sidenav">
+			<div class="col-md-3 full-height">
+				<div class="navigation" role="complementary">
+				    <ul class="nav">
 				        <li>
 				        	<a href="buttons.html">Buttons</a>
 				        	<ul class="side-nav-sub">
@@ -49,8 +48,7 @@
 				        		<li><a href="iconography.html#core">Core</a></li>
 				        		<li><a href="iconography.html#navigation">Navigation</a></li>
 				        		<li><a href="iconography.html#feature">Feature</a></li>
-				        	</ul>
- -->
+				        	</ul> -->
 				        </li>
 				        <li>
 				        	<a href="typography.html">Typography</a>
@@ -69,6 +67,11 @@
 			</div>
 			<div class="col-md-9">
 				<h1>Buttons</h1>
+				<button class="v2-button v2-button--primary" href="#primary">Primary</button>
+				<button class="v2-button v2-button--secondary" href="#secondary">Secondary</button>
+				<button class="v2-button v2-button--tertiary" href="#tertiary">Tertiary</button>
+				<button class="v2-button v2-button--supplementary" href="#supplementary">Supplementary</button>
+
 				<p>Buttons, across the nib digital channels, help our users see and perform an action. These actions include:</p>
 				<ul>
 					<li>Moving between pages</li>
@@ -76,25 +79,41 @@
 					<li>Expanding or minimising an accordion</li>
 					<li>Opening a dialog</li>
 				</ul>
-				<h3>General button usage</h3>
-				    	<h4>Labelling</h4>
+				
+
+				<div class="block-1 row">
+					<h2>General Usage</h2>
+					<div class="col-md-8">
+						<h3>Color</h3>
+						<div class="color-example color-example-kate">
+							<h5>Kate Middleton</h5>
+							<p>#ffb400</p>
+							<p>rgb(250,180,0)</p>
+						</div>
+						<div class="color-example color-example-elizabeth">
+							<h5>Queen Elizabeth</h5>
+							<p>#009623</p>
+							<p>rgb(0,150,35)</p>
+						</div>
+						<div class="color-example color-example-grey">
+							<h5>Grey</h5>
+							<p>#888888</p>
+							<p>rgb(136,136,136)</p>
+						</div>
+						</div>
+					<div class="col-md-4">
+				    	<h3>Labelling</h3>
 				    	<ul>
 					    	<li>Open sans</li>
 					    	<li>Single line</li>
 					    	<li>12px - 18px</li>
 					    	<li>Tell the user what the button will do</li>
 					    	<li>DO NOT use contextless request as labels e.g. "Click here"</li>
-					    </ul>	
-				    	<h4>Do</h4>				
-				    	<ul>
-							<li>Button dos</li>
-							
-						</ul>
-						<h4>Do not</h4>
-						<ul>
 							<li>Do not use multi-line line labels</li>
 							<li>Do not use modifiers that have not already been defined</li>
 						</ul>
+					</div>
+				</div>
 			    <div class="section" id="primary">
 			    	<h2>Primary</h2>
 				    <div class="wordbit">
@@ -259,6 +278,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	</body>
 </html>
