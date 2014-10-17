@@ -751,6 +751,18 @@ margin-left: -4px;
 	background-image: url(../assets/icons/feature/icon-umbrella.svg);
 }
 
+.icon-ambulance {
+	background-image: url(../assets/icons/feature/icon-ambulance.svg);
+}
+
+.icon-heartrate {
+	background-image: url(../assets/icons/feature/icon-heartrate.svg);
+}
+
+.icon-megaphone {
+	background-image: url(../assets/icons/feature/icon-megaphone.svg);
+}
+
 .icon-yasmin {
 	background-image: url(../assets/icons/feature/icon-yasmin.svg);
 }
